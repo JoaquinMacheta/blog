@@ -1,0 +1,58 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.entry{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(247, 243, 243);
+    width: 30%;
+    height: 60vh;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+    margin-top: 110px;
+    border-radius: 20% 0% 20% 0%;
+    transition: width .5s, height .5s;
+    background-color: white;
+    opacity: .8;
+}
+
+.entry:hover {
+    width: 50%;
+    height: 80vh;
+    
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 20%;
+    transition: width .5s;
+    padding-bottom: 5px;
+}
+
+input:focus{
+    outline: none;
+    width: 35%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+}
+
+.pic {
+    transform: translate(20deg);
+}
+
+.label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
